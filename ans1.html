@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ans1.css">
+
+</head>
+<style>
+    :root {
+        --primaryColor: #00b7ff;
+        --secondaryColor: #6c757d;
+    }
+    button {
+        font-size: 20px;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+    }
+    #primaryBtn {
+        background-color: var(--primaryColor);
+    }
+    #secondaryBtn {
+        background-color: var(--secondaryColor);
+    }
+
+
+
+</style>
+<body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+
+    <!-- the var() function is use to value of custom property is known as css variable. we use var in css 
+    --prefix followed by a variable name. first we stored the variable into some root, then we reuse 
+    the variable of using var(name of the stored variable).
+
+   purpose of var():-
+   a. global change:- var() function is a behave like a global variable. it can easily change the 
+   value of variable. 
+   b. consistency:- if we use multiple times of var , if we can change the value if var it can change 
+   the value whenever the function var use.   -->
+
+</body>
+</html>
